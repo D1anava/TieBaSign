@@ -6,7 +6,11 @@ import time
 import copy
 import logging
 import random
-Run actions/setup-python@v1
+Run actions/setup-python@v3
+  with:
+    python-version: 3.7
+    architecture: x64
+      Run actions/setup-python@v4
   with:
     python-version: 3.7
     architecture: x64
