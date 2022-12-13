@@ -6,6 +6,7 @@ import time
 import copy
 import logging
 import random
+python3.10.8 yourcode.py
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
