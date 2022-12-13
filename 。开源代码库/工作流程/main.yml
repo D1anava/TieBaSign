@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v2
+         with:
+          python-version: 3.7
       - name: 'Set python'
         uses: actions/setup-python@v1
         with:
