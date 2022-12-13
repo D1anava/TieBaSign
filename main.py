@@ -6,7 +6,8 @@ import time
 import copy
 import logging
 import random
-winpty py -3.7
+ with:
+    python-version: 3.7
  
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
