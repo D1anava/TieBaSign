@@ -22,7 +22,7 @@ HEADERS = {
 }
 SIGN_DATA = {
     '_client_type': '2',
-    '_client_version': '3.10.8',
+    '_client_version': '3.7',
     '_phone_imei': '000000000000000',
     'model': 'MI+5',
     "net_type": "1",
@@ -70,7 +70,7 @@ def get_favorite(bduss):
         'BDUSS': bduss,
         '_client_type': '2',
         '_client_id': 'wappc_1534235498291_488',
-        '_client_version': '3.10.8',
+        '_client_version': '3.7',
         '_phone_imei': '000000000000000',
         'from': '1008621y',
         'page_no': '1',
